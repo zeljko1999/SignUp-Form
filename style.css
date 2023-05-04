@@ -20,9 +20,12 @@
     z-index: 1;
 }
 
+.bot{
+    display:flex;
+    justify-content: center;
+}
 .img-odin-left{
     height: 120px;
-
 }
 
 .overlay-odin{
@@ -36,6 +39,13 @@
     justify-content: center;
     top: 200px;
     padding: 10px 0;
+}
+
+.img-credit{
+    position:absolute;
+    color: rgba(255,255,255,0.7);
+    z-index: 2;
+    bottom: 10px;
 }
 
 .odin-text{
@@ -149,4 +159,9 @@ a:hover {
 
 a:active {
   color: red;
+}
+
+.img-credit>a {
+    outline:none;
+    color:rgba(255,255,255,0.7);
 }
