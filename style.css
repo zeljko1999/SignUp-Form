@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik:wght@600&display=swap');
+@font-face {
+    font-family: "NorseBold";
+    src: url(fonts/Norse-Bold.otf);
+}
+
+
 #left-side{
     position:relative;
     max-width: 30%;
@@ -34,6 +41,7 @@
 .odin-text{
     color:white;
     font-size: 86px;
+    font-family: "NorseBold", sans-serif;
 }
 
 body{
@@ -77,8 +85,7 @@ body{
 }
 
 label{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
     font-size: 14px;
     width: 250px;
 }
@@ -86,11 +93,48 @@ label{
 input {
     padding: 6px;
     border-radius: 4px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 14px;
     border-color:rgba(0,0,0,0.1);
 }
 
 input:invalid{
     border-color:rgba(255,0,0,1);
+}
+
+.submit{
+    background-color: #596D48;
+    color: white;
+    font-size: 16px;
+    padding: 10px 50px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.bottom-form{
+    margin-top: 30px;
+    border-top: 5px solid rgba(77, 136, 18, 0.3);
+    padding-top: 30px;
+}
+
+.login{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: #596D48;
+}
+
+a:focus,
+a:hover {
+  border-bottom: 1px solid;
+}
+
+a:active {
+  color: red;
 }
