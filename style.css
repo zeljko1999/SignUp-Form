@@ -100,8 +100,15 @@ input {
 }
 
 input:invalid{
-    border-color:rgba(255,0,0,1);
+    border: 1px solid rgba(255,0,0,1);
 }
+
+input:focus{
+    outline: 0;
+    border: 2px solid rgba(37, 55, 158, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 
 .submit{
     background-color: #596D48;
@@ -114,7 +121,7 @@ input:invalid{
 }
 
 .bottom-form{
-    margin-top: 30px;
+    margin-top: 25px;
     border-top: 5px solid rgba(77, 136, 18, 0.3);
     padding-top: 30px;
 }
@@ -122,6 +129,11 @@ input:invalid{
 .login{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+}
+
+.error-row{
+    color:red;
+    font-size: 8px;
 }
 
 a{
